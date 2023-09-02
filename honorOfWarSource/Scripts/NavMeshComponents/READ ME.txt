@@ -1,0 +1,73 @@
+https://github.com/Unity-Technologies/NavMeshComponents
+Downloaded these components from this github, I don't own these files and all the rights go to its creator(s).
+
+# Status of the project
+
+## Development
+This project is now developed as part of the [AI Navigation](https://docs.unity3d.com/Packages/com.unity.ai.navigation@latest) package. Please add that package to your project in order to continue building the NavMesh using these components and to get access to newer versions.
+
+The content of this repository remains available for older Unity versions but no further development will be made here.
+
+## Questions and feature requests
+Please use the [AI & Navigation Previews](https://forum.unity.com/forums/ai-navigation-previews.122/) section of the forum to discuss about the **AI Navigation** package and to stay informed about major releases.
+
+You can learn about the future developments of **AI Navigation** and also share your feature requests in the [Unity Platform Roadmap](https://unity.com/roadmap/unity-platform/navigation-game-ai) portal.
+
+## Bug Reporting
+The _Issues_ section of this repository is closed. Please use the [Unity built-in report system](https://unity3d.com/unity/qa/bug-reporting
+) to report any bugs that you find in the **AI Navigation** package.
+
+# Using This Repository
+
+## Components for Runtime NavMesh Building
+
+Here we introduce four components for the navigation system:
+
+* __NavMeshSurface__ – for building and enabling a NavMesh surface for one agent type.
+* __NavMeshModifier__ – affects the NavMesh generation of NavMesh area types, based on the transform hierarchy.
+* __NavMeshModifierVolume__ – affects the NavMesh generation of NavMesh area types, based on volume.
+* __NavMeshLink__ – connects same or different NavMesh surfaces for one agent type.
+
+These components comprise the high level controls for building and using NavMeshes at runtime as well as edit time.
+
+Detailed information can be found in the [Documentation](Documentation) section or in the [NavMesh building components](https://docs.unity3d.com/Manual/NavMesh-BuildingComponents.html) section of the Unity Manual.
+
+## How To Get Started
+
+Download and install Unity 5.6 or newer.
+
+Clone or download this repository and open the project in Unity.
+Alternatively, you can copy the contents of `Assets/NavMeshComponents` to an existing project.
+
+Make sure to select a branch of the repository that matches the Unity version:
+> [master](../../tree/master) for 2020.3-LTS, [2019.3](../../tree/2019.3) for up to 2019.4-LTS, [2018.3](../../tree/2018.3) for up to 2018.4-LTS and 2019.2, [2018.2](../../tree/2018.2), [2018.1](../../tree/2018.1), [2017.2](../../tree/2017.2) for up to 2017.4-LTS, [2017.1](../../tree/2017.1), [5.6](../../tree/5.6).
+
+Additional examples are available in the `Assets/Examples` folder.
+The examples are provided "as is". They are neither generic nor robust, but serve as inspiration.
+
+_Note: During the beta cycle features and API are subject to change.\
+**Make sure to backup an existing project before opening it with a beta build.**_
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+The MIT License (MIT)
+
+Copyright (c) 2016, Unity Technologies
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
