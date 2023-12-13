@@ -1,0 +1,11 @@
+ 
+csv
+pyautogui
+customtkinter
+tkinter
+selenium
+webdriver_manager
+retrying
+
+each can be installed using the libraries.py script
+
